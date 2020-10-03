@@ -17,7 +17,6 @@ int main() {
         }
     }
     if (lowerCount == upperCount || lowerCount > upperCount) {
-        
         for (int i = 0; i < l; i++) {
             if (s[i] < 96) {
                 s[i] = s[i] + 32;
